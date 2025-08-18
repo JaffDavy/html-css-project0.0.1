@@ -1,3 +1,5 @@
 {
-  "threshold": 15
+  "threshold": 15,
+  "exclude": ["index.html"]
+
 }
