@@ -316,39 +316,38 @@ nav {
   margin-top: 20px;
 }
 
-.client-i {
+
+/* Unified testimonial block styling for .client-item and .client-text */
+.client-item {
   padding: 15px;
   margin-top: 20px;
   min-width: 85%;
   border-radius: 10px;
   box-shadow: 15px 15px 15px 15px #d5d5d5;
+  background-color: #fff;
+  color: #212529;
 }
 
-.para {
+.client-item:nth-child(2),
+.client-item:nth-child(3) {
+  background-color: #4f9cf9;
+  color: #fff;
+}
+
+.client-item h4 {
+  color: #043873;
+  font-size: 1.5rem;
+}
+
+.client-text {
   border-bottom: 1.5px solid #212529;
   padding-bottom: 30px;
   margin-bottom: 20px;
 }
 
-.parag {
+.client-item:nth-child(2) .client-text,
+.client-item:nth-child(3) .client-text {
   border-bottom: 1.5px solid #fff;
-  padding-bottom: 30px;
-  margin-bottom: 20px;
-}
-
-.client-ii {
-  padding: 15px;
-  padding-top: 15px;
-  min-width: 85%;
-  background-color: #4f9cf9;
-  margin-top: 20px;
-  color: #fff;
-  border-radius: 10px;
-}
-
-.client-ii h4 {
-  color: #043873;
-  font-size: 1.5rem;
 }
 
 .quote img {
