@@ -220,6 +220,16 @@ nav {
   min-width: 80%;
 }
 
+.box-ii button {
+  padding: 13px;
+  background-color: #4f9cf9;
+  border-radius: 5px;
+  width: 120px;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+}
+
 .sup-ii .box-i button {
   padding: 13px 20px;
   background-color: #fff;
@@ -259,16 +269,6 @@ nav {
 .client-item:nth-child(2) .client-text,
 .client-item:nth-child(3) .client-text {
   border-bottom: 1.5px solid #fff;
-}
-
-.box-ii button {
-  padding: 13px;
-  background-color: #4f9cf9;
-  border-radius: 5px;
-  width: 120px;
-  border: none;
-  color: #fff;
-  margin-top: 10px;
 }
 
 .sup-ii {
