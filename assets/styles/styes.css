@@ -605,7 +605,7 @@ footer {
     justify-self: start;
     padding: 10px;
     margin-top: 50px;
-    height: 250px;
+    height: 30rem;
   }
 
   .info h1,
@@ -627,10 +627,6 @@ footer {
 
   .info {
     text-align: start;
-  }
-
-  .info h1 {
-    padding: 30px 30px 20px 0;
   }
 
   .info p {
@@ -797,7 +793,6 @@ footer {
   .profil {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     gap: 1rem;
     padding: 10px;
   }
@@ -866,10 +861,6 @@ footer {
   .hp h4 {
     font-size: 1.2rem;
     margin-bottom: 10px;
-  }
-
-  .blueimagee {
-    height: 30rem;
   }
 
   .info h1 {
