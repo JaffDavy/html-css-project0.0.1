@@ -549,3 +549,419 @@ footer {
   height: 22px;
   right: 0;
 }
+
+@media (min-width: 768px) {
+  .navbar-button {
+    display: block;
+    justify-content: space-between;
+  }
+
+  .section-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .slash-iv img {
+    right: 205px;
+    width: 185px;
+    top: 67px;
+  }
+
+  .slash-iii img {
+    width: 230px;
+    top: 125px;
+    left: 1px;
+    height: 20px;
+  }
+
+  .slash-ii img {
+    width: 210px;
+    height: 13px;
+    right: 30px;
+  }
+
+  .slash-i img {
+    width: 190px;
+    height: 18px;
+    right: 60px;
+  }
+
+  .slash img {
+    width: 200px;
+    left: 80px;
+    top: 120px;
+  }
+
+  .blueimage {
+    height: 250px;
+    margin-top: 30px;
+    justify-self: end;
+    padding: 10px;
+  }
+
+  .blueimagee {
+    justify-self: start;
+    padding: 10px;
+    margin-top: 50px;
+    height: 30rem;
+  }
+
+  .info h1,
+  .sup-i h1,
+  .inform h1,
+  .sponsors h1 {
+    font-size: 2.6em;
+  }
+
+  .section-i .section-div {
+    background-size: cover;
+    background-image: url("./images/vec-i.png");
+    background-repeat: no-repeat;
+  }
+
+  .sup-i p {
+    padding: 0 28px;
+  }
+
+  .info {
+    text-align: start;
+  }
+
+  .info p {
+    padding-right: 35px;
+    font-size: 15px;
+  }
+
+  .inform p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .info button,
+  .inform button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .section-i {
+    padding: 20px;
+    background-image: none;
+  }
+
+  .section-ii {
+    padding: 20px;
+  }
+
+  .menu img {
+    width: 30px;
+    height: 30px;
+    padding-top: 8px;
+  }
+
+  .bigg {
+    margin-top: 45px;
+  }
+
+  .work {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+  }
+
+  .int {
+    margin-top: 40px;
+  }
+
+  .inf {
+    margin-top: 70px;
+  }
+
+  .box-i {
+    min-width: 180px;
+  }
+
+  .box-ii {
+    min-width: 180px;
+  }
+
+  .sup-ii {
+    padding: 10px;
+  }
+
+  .inform {
+    width: 456px;
+  }
+
+  .semii {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .semii img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .semi {
+    display: none;
+  }
+
+  .section-divv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+  }
+
+  .readmore {
+    justify-content: start;
+  }
+
+  .sponsors {
+    margin-top: 50px;
+  }
+
+  .sponsor-logo {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .sponsor-logo img {
+    width: 150px;
+  }
+
+  .apple img {
+    width: 40px;
+    margin-top: 0;
+  }
+
+  .footer-seciii img {
+    padding-top: 0;
+    width: 100px;
+  }
+
+  .logos img {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .terms img {
+    width: 20px;
+    margin-top: 0;
+  }
+
+  .section-vi .work img {
+    height: 300px;
+    width: 370px;
+  }
+
+  .section-vi .work {
+    margin-right: 40px;
+    margin-top: 80px;
+  }
+
+  .section-vi .section-div {
+    margin-top: 40px;
+  }
+
+  .client-item {
+    padding: 15px;
+    margin-top: 20px;
+    min-width: 20rem;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px 15px #d5d5d5;
+    background-color: #fff;
+    color: #212529;
+  }
+
+  .client-item:nth-child(2),
+  .client-item:nth-child(3) {
+    background-color: #4f9cf9;
+    color: #fff;
+  }
+
+  .client {
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;
+    padding: 10px;
+  }
+
+  .profil {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 10px;
+  }
+
+  .client-i,
+  .client-ii {
+    min-width: 200px;
+  }
+
+  .footer-seci {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-secii {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    font-size: 0.8rem;
+    margin-top: 7rem;
+    border-bottom: 1.5px solid #2e4e73;
+  }
+
+  .part-ii h2 {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .part-i h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .footer-seciii {
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+
+  .part-i {
+    text-align: start;
+    margin-bottom: 40px;
+  }
+
+  .logos {
+    justify-content: start;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .logos h2 {
+    margin-top: -9px;
+  }
+
+  .terms {
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: space-between;
+    border: none;
+  }
+
+  .hp h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .info h1 {
+    display: flex;
+  }
+
+  @media (min-width: 992px) {
+    .logo {
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav {
+      display: flex;
+      gap: 2rem;
+      font-size: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .menu {
+      justify-content: space-between;
+      display: flex;
+      gap: 35rem;
+    }
+
+    .menu img {
+      display: none;
+    }
+
+    .blueimage {
+      width: 40rem;
+      height: 20rem;
+      margin-top: 50px;
+    }
+
+    .info {
+      padding-top: 45px;
+      margin-bottom: 30px;
+    }
+
+    .info button,
+    .inform button {
+      margin-top: 40px;
+    }
+
+    .info h1,
+    .sup-i h1,
+    .inform h1,
+    .sponsors h1 {
+      font-size: 5rem;
+    }
+
+    .info p,
+    .inform p {
+      font-size: 18px;
+    }
+
+    .inform {
+      text-align: center;
+      width: 100%;
+    }
+
+    .semii img {
+      width: 550px;
+      height: 300px;
+      margin-top: 20px;
+    }
+
+    .semii {
+      justify-content: end;
+      margin-top: 60px;
+    }
+
+    .section-vi .work {
+      margin-top: 70px;
+      margin-right: 30px;
+    }
+
+    .section-vi .work img {
+      width: 450px;
+      height: 360px;
+    }
+
+    .section-vi .section-div {
+      margin-top: 60px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-i,
+  .section-ii,
+  .section-iv,
+  .section-v,
+  .section-vi,
+  header,
+  .footer {
+    padding: 30px 50px 20px;
+  }
+}
